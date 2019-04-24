@@ -1,0 +1,7 @@
+{
+    "name": "Red80-IBMColorsV01",
+    "dataColors": ["#750E13", "#A51920", "#DA1E28", "#FB4B53", "#FF767C", "#FFA4A9", "#FCD0D3", "#FFF0F1"], 
+    "background": "#FFFFFF",
+    "foreground": "#A51920",
+    "tableAccent": "#750E13"
+}

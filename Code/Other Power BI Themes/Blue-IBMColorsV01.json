@@ -1,0 +1,7 @@
+{
+    "name": "Blue-IBMColorsV01",
+    "dataColors": ["#0530AD", "#054ADA", "#0062FF", "#408BFC", "#6EA6FF", "#97C1FF", "#C9DEFF", "#EDF4FF"], 
+    "background": "#FFFFFF",
+    "foreground": "#054ADA",
+    "tableAccent": "#0530AD"
+}

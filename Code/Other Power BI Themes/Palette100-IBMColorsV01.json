@@ -1,0 +1,7 @@
+{
+    "name": "Palette100-IBMColorsV01",
+    "dataColors": ["#2C080A", "#2A0A16", "#1E1033", "#051243", "#07192B", "#081A1C", "#081B09", "#171717"], 
+    "background": "#F3F3F3",
+    "foreground": "#171717",
+    "tableAccent": "#3D3D3D"
+}
