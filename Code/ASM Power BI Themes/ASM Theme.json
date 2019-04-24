@@ -1,0 +1,7 @@
+{
+    "name": "ASM",
+    "dataColors": ["#92B4D4", "#094791", "#747678", "#009169", "#FF0D00", "#FFAD00", "#FF7800", "#B9B7B2"],
+    "background":"#FFFFFF",
+    "foreground": "#000000",
+    "tableAccent": "#92B4D4"
+}

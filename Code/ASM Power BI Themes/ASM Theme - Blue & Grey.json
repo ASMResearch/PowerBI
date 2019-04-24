@@ -1,0 +1,7 @@
+{
+    "name": "ASM - Blue & Grey",
+    "dataColors": ["#094791", "#032A59", "#3872B7", "#747678", "#3D4145", "#C4C4C5", "#92B4D4", "#416D97", "#ECF4FB", "#009169", "#FFAD00", "#FF7800", "#FF0D00"],
+    "background":"#FFFFFF",
+    "foreground": "#000000",
+    "tableAccent": "#92B4D4"
+}

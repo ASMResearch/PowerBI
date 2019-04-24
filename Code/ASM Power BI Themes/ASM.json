@@ -1,0 +1,51 @@
+{ 
+	"name": "ASM",
+    "dataColors": ["#0078d4", "#d12765", "#8a3ffc", "#0078d4", "#0072c3", "#007d79", "#198038", "#6f6f6f"],
+	"background":"#ffffff",
+	"foreground": "#d12765",
+	"tableAccent": "#0078d4",
+	"visualStyles": {
+        "*": {
+            "*": {
+                "title": [{
+                    "show": true,
+                    "fontColor": { "solid": { "color": "#ffffff" } },
+                    "background": { "solid": { "color": "#0078d4" } },
+                    "alignment": "Center",
+                    "fontSize": 9,
+                    "fontFamily": "Segoe (Bold)"
+                }],
+                "background": [{
+                    "show": false,
+                    "color": { "solid": { "color": "#f3f3f3" } },
+                    "transparency": 0
+                }],
+                "lockAspect": [{
+                    "show": false
+                }],
+                "border": [{
+                    "show": false,
+                    "color": { "solid": { "color": "#0078d4" } }
+                }],
+                "visualTooltip": [{
+                    "type": "Default"
+                }],
+                "stylePreset": [{
+                    "name": "None"
+                }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": "#c9deff" } },
+                    "transparency": 0
+                }],
+                "outspace": [{
+                    "color": { "solid": { "color": "#edf4ff" } },
+                    "transparency": 0
+                }]
+            }
+        }
+    }
+}
