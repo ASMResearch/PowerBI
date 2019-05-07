@@ -1,0 +1,8 @@
+// fnGetPrameterFromTable
+(ParameterName as text, ParametersTable as table) =>
+let
+    ParameterSource = ParametersTable,
+    ParameterRow = Table.SelectRows(ParameterSource, each ([Parameter] = ParameterName)),
+    ParameterValue = if Table.IsEmpty(ParameterRow) = true then null else Record.Field(ParameterRow{0},"Value")
+in
+    ParameterValue

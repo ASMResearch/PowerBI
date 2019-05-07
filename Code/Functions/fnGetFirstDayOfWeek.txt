@@ -1,0 +1,30 @@
+// fnGetFirstDayOfWeek
+(input) =>
+
+let
+
+values = {
+
+{"Day.Sunday", 0},
+
+{"Day.Monday", 1},
+
+{"Day.Tuesday", 2},
+
+{"Day.Wednesday", 3},
+
+{"Day.Thursday", 4},
+
+{"Day.Friday", 5},
+
+{"Day.Saturday", 6},
+
+{input, 0}
+
+},
+
+Result = List.First(List.Select(values, each _{0}=input)){1}
+
+in
+
+Result

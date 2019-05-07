@@ -1,0 +1,8 @@
+// fnGetParameterFromNamedRange
+(NamedRange as text, WbkFilePath as text) =>
+let
+    NamedRangeSource = Excel.Workbook(Web.Contents(WbkFilePath), null, true),
+    NamedRangeParameter = try NamedRangeSource{[Name=NamedRange]}[Data] otherwise null,
+    NamedRangeValue = if NamedRangeParameter = null then null else NamedRangeParameter{0}[Column1]
+in
+    NamedRangeValue
